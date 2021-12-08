@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Test v-if="isShow" />
+    <Test v-if="isShow" test-prop="test" />
     <button type="button" @click="clickHandler">Click</button>
   </div>
 </template>
